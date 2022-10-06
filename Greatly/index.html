@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon16.png" />
+</head>
+
+<body>
+    <div class="main_container">
+        <p class="time" id="timeText"></p>
+        <p class="greeting" id="greetingText"></p>
+
+    </div>
+    <div class="UserNameInput">
+        <input type="text" id="InputUserName" placeholder="What should I call you?" />
+        <a id="storeUserNameButton">
+            <span class="right"></span>
+        </a>
+    </div>
+
+    <div class="reloadBackground">
+        <a id="reloadBack">
+            <i class="fa fa-refresh" style="font-size:25px;color:rgb(255, 255, 255)"></i>
+        </a>
+
+    </div>
+
+    <div class="quoteLoad">
+        <div id="quote">
+            Loading...
+        </div>
+        <div id="author">
+        </div>
+
+    </div>
+
+    <div class="Like">
+        <a id="like">
+            <i class="fa fa-heart"></i>
+        </a>
+    </div>
+
+
+    <div id="snackbar">Please Connect to Internet <i style="padding-left: 2px; " class="fa fa-refresh"></i></div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

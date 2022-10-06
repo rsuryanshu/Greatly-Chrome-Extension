@@ -1,0 +1,30 @@
+{
+    "name": "Greatly",
+    "manifest_version": 3,
+    "version": "1.0",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "24": "icon24.png",
+            "32": "icon32.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        },
+        "default_title": "Greatly"
+    },
+    "description": "The New tab with a more personalized page with Greeting, Background Image & Inspirational Quotes",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "background"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
